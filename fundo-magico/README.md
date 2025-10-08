@@ -17,5 +17,5 @@ Projeto pessoal desenvolvido com objetivo de aprofundar os conhecimentos em inte
   <img width="1818" height="915" alt="image" src="https://github.com/user-attachments/assets/f85bf546-cf16-4270-89d2-2c18f30046d3" />
 </p>
 <h2 align="center">
-  <a href="https://brunosts94.github.io/LandingPages_Portifolio/fundo-magico/index.html">Visualize o Site aqui</a>
+  <a href="https://brunosts94.github.io/Projetos-Vite-Portfolio/fundo-magico">Visualize o Site aqui</a>
 </h2>
