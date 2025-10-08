@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Metamorphous&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Fundo Mágico</title>
+  <script type="module" crossorigin src="/Projetos-Vite-Portfolio/fundo-magico/assets/index-BiMj_8jj.js"></script>
+  <link rel="stylesheet" crossorigin href="/Projetos-Vite-Portfolio/fundo-magico/assets/index-B95K87QN.css">
+</head>
+<body class="text-white bg-[url(/src/img/fundo-magico.jpg)] bg-cover bg-center p-24 flex flex-col items-center justify-center">
+    <header class="mb-[40px] z-index-99 max-w-[700px] flex flex-col items-center text-center">
+        <h1 class="mb-[16px] text-5xl">Fundo Mágico</h1>
+        <p class="text-stone-50/80 text-base">Transforme suas ideias em backgrounds incríveis com o poder da IA!</p>
+        <p class="text-stone-50/80 text-base">Descreva o que voce imagina, e veja a magia acontecer</p>
+    </header>
+
+    <main class="max-w-[1024px] w-[95%]">
+        <section id="container1" 
+        class="border border-stone-400 rounded-2xl p-10 mb-9 text-center">
+            <h2 class="text-lg mb-2">Escreva o background que voce deseja:</h2>
+                <form id="form">
+                    <textarea 
+                    class="bg-amber-50/10 font-sans min-h-[120px] w-full p-3 rounded-md 
+                    text-white mb-2 focus:outline-purple-600"  
+                    placeholder="Gere um gradiente que vai de um azul claro para um azul marinho."></textarea>
+                    <button id="generate-btn" 
+                    class="cursor-pointer w-full h-12 rounded-md font-bold
+                    bg-[linear-gradient(90deg,_#a655f7_0%,_#ff80aa_100%)]
+                    transition-all duration-300 ease-in hover:-translate-y-1">Gerar Background</button>
+                </form>
+        </section>
+
+        <section id="preview-section" class="display-none">
+
+        </section>
+
+        <section id="code-output" class="flex gap-10">
+            <div class="border border-stone-400 rounded-md p-10 mb-9 bg-black/20 w-[50%]">
+                <h3 class="text-base mb-[16px] ">Código HTML</h3>
+                <pre id="html-code" 
+                class="bg-gray-500 text-[#3fe275] rounded-sm p-2 whitespace-pre-wrap wrap-break-word font-sans overflow-auto max-h-[400px] scrollbar-thin scrollbar-thumb-[#3fe275]/50 scrollbar-track-transparent"></pre>
+            </div>
+
+            <div class="border border-stone-400 rounded-md p-10 mb-9 bg-black/20 w-[50%]">
+                <h3 class="text-base mb-[16px] ">Código CSS</h3>
+                <pre id="css-code" 
+                class="bg-gray-500 text-[#3fe275] rounded-sm p-2 whitespace-pre-wrap font-sans overflow-auto max-h-[400px] scrollbar-thin scrollbar-thumb-[#3fe275]/50 scrollbar-track-transparent"></pre>
+            </div>  
+        </section>
+    </main>
+    <footer class="text-center">
+      <p>© 2025 Fundo Mágico. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

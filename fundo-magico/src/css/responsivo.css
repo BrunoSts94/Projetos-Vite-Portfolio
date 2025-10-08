@@ -1,0 +1,70 @@
+@media (max-width: 480px) {
+    header{
+        margin-bottom: 20px;
+    }
+
+    header h1{
+        font-size: 38px;
+    }
+
+    header p{
+        font-size: 14px;
+    }
+
+    body{
+        padding: 40px;
+        margin: 0;
+    }
+    
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main #container1{
+        padding: 20px;
+        width: 75vw;
+    }
+
+    main #container1 h2{
+        font-size: 14px;
+        
+    }
+
+    main #container1 textarea{
+        height: 80px;
+        font-size: 12px;
+    }
+
+    main #container1 button{
+        font-size: 14px;
+    }
+
+    #code-output{
+        flex-direction: column;
+        align-items: center;
+        width: 75vw;
+        gap: 0px;
+    }
+
+    #code-output div{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #code-output div h3{
+        font-size: 14px;
+    }
+
+    #code-output div pre{
+        font-size: 12px;
+    }
+
+    footer{
+        font-size: 10px;
+        
+    }
+}
